@@ -1,0 +1,38 @@
+{
+  "name": "@teneff/dw-i18n",
+  "version": "1.0.0",
+  "description": "Translating .properties to .json",
+  "main": "index.js",
+  "scripts": {
+    "start": "gulp",
+    "lint": "eslint --ignore-path .gitignore .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Teneff/dw-i18n.git"
+  },
+  "keywords": [
+    "translation",
+    "localization",
+    "i18n"
+  ],
+  "author": "Stefan Teneff <st.teneff@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Teneff/dw-i18n/issues"
+  },
+  "homepage": "https://github.com/Teneff/dw-i18n#readme",
+  "devDependencies": {
+    "@babel/core": "^7.2.2",
+    "@babel/preset-env": "^7.3.1",
+    "@babel/register": "^7.0.0",
+    "eslint": "^5.13.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0",
+    "gulp": "^4.0.0",
+    "gulp-clean": "^0.4.0",
+    "gulp-props": "^2.0.1",
+    "gulp-props2json": "^2.0.0"
+  }
+}
